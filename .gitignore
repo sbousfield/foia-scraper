@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Project specific
+data/
+*.pdf
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
