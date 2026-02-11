@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 from pathlib import Path
+from urllib.parse import urljoin
 from src.config import SOURCES, HEADERS, DELAY_BETWEEN_REQUESTS, DOWNLOAD_DIR, MAX_DOCUMENTS
 
 class FOIScraper:
@@ -42,26 +43,29 @@ class FOIScraper:
         if not table:
             print("Table not found")
             return []
-        
-        print("Found table")
 
         rows = tbody.find_all('tr')
-        print(f"found {len(rows)} rows")
 
-        """for row in rows:
+        metadata_csv_dict_list = []
+
+        for row in rows:
             cells = row.find_all('td')
             foi_number = cells[0].text.strip()
             foi_date_machine = cells[1].find('time')['datetime']
-            foi_date_human_readable = cells[1].text.strip
+            foi_date_human_readable = cells[1].text.strip()
             foi_title = cells[2].text.strip()
-            foi_link = cells[2].find('a').get('href')
-            """
+            foi_href = cells[2].find('a').get('href')
+            foi_link = urljoin(self.base_url, foi_href)
+            
+            metadata_csv_dict = {
+                "FOI Number": foi_number,
+                "FOI Date (Machine)": foi_date_machine,
+                "FOI Date (Human)": foi_date_human_readable,
+                "FOI Title": foi_title,
+                "FOI URL": foi_link 
+            }
 
-        if len(rows) > 1:
-            test_row = rows[1]
-            cells = test_row.find_all('td')
-            #for i, cell in enumerate(cells):
-            #    print(f"Column {i}: {cell.text.strip()[:50]}")
-            foi_number = cells[1].find('time')['datetime']
-            print(foi_number)
-        return []
+            metadata_csv_dict_list.append(metadata_csv_dict)
+
+        df = pd.DataFrame(metadata_csv_dict_list)
+        df.to_csv("./data/metadata/metadata.csv", index=False)
