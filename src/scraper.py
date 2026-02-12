@@ -1,6 +1,7 @@
 """Main scraping logic for FOIA documents."""
 
 import requests
+import sys
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
@@ -66,6 +67,35 @@ class FOIScraper:
             }
 
             metadata_csv_dict_list.append(metadata_csv_dict)
+        
+        return metadata_csv_dict_list
 
-        df = pd.DataFrame(metadata_csv_dict_list)
-        df.to_csv("./data/metadata/metadata.csv", index=False)
+    def save_metadata_to_csv(self, metadata_list, csv_name):
+        df = pd.DataFrame(metadata_list)
+        df.to_csv(f"./data/metadata/{csv_name}.csv", index=False)
+    
+    def find_pdf_url(self, csv_filepath):
+        df = pd.read_csv(csv_filepath)
+        link_list = df['FOI URL'].tolist()
+        error_list = []
+        for link in link_list:
+            try:   
+                response = requests.get(link)
+                soup = BeautifulSoup(response.content, 'html.parser')
+                pdf_href = soup.find('a', 'health-file__link').get('href')
+                pdf_url = urljoin(self.base_url, pdf_href)
+                self.download_pdf(pdf_url, "./data/raw/")
+            except:
+                error_list.append({
+                    "Link": link,
+                    "Error Type": sys.exc_info()[0]
+                })
+        df = pd.DataFrame(error_list)
+        df.to_csv(f"./data/errors.csv", index=False)
+
+
+    def download_pdf(self, pdf_url, filepath):
+        response = requests.get(pdf_url)
+        pdf_name = pdf_url.split('/')[-1]
+        with open(f"{filepath}{pdf_name}", 'wb') as f:
+            f.write(response.content)

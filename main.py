@@ -20,7 +20,9 @@ def main():
         #print("\nReady to start scraping!")
         response = scraper.session.get(scraper.base_url)
         soup = BeautifulSoup(response.content, 'html.parser')
-        scraper.parse_table(soup)
+        metadata = scraper.parse_table(soup)
+        scraper.save_metadata_to_csv(metadata, "dept_health_metadata")
+        scraper.find_pdf_url("./data/metadata/dept_health_metadata.csv")
     else:
         print("\nCannot proceed - connection failed.")
         return
