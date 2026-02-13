@@ -3,15 +3,15 @@
 from bs4 import BeautifulSoup
 from src.scraper import FOIScraper
 from pathlib import Path
+from src.config import PROJECT_ROOT
 
 def main():
     """Main function to run the scraper."""
     # Ensure directories exist
-    Path('data/raw').mkdir(parents=True, exist_ok=True)
-    Path('data/metadata').mkdir(parents=True, exist_ok=True)
+    Path(PROJECT_ROOT, 'data/raw').mkdir(parents=True, exist_ok=True)
+    Path(PROJECT_ROOT, 'data/metadata').mkdir(parents=True, exist_ok=True)
     
     print("=== FOIA Document Scraper ===\n")
-    
     # Initialize scraper
     scraper = FOIScraper('Dept Health')
     
@@ -21,8 +21,8 @@ def main():
         response = scraper.session.get(scraper.base_url)
         soup = BeautifulSoup(response.content, 'html.parser')
         metadata = scraper.parse_table(soup)
-        scraper.save_metadata_to_csv(metadata, "dept_health_metadata")
-        scraper.find_pdf_url("./data/metadata/dept_health_metadata.csv")
+        scraper.save_metadata_to_csv(metadata)
+        scraper.find_pdf_url()
     else:
         print("\nCannot proceed - connection failed.")
         return
