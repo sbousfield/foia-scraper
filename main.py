@@ -21,7 +21,6 @@ def main():
         response = scraper.session.get(scraper.base_url)
         soup = BeautifulSoup(response.content, 'html.parser')
         scraper.get_all_pages(soup, scraper.base_url)
-        exit()
         scraper.find_pdf_url()
         
     else:

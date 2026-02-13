@@ -103,8 +103,12 @@ class FOIScraper:
     
     def find_pdf_url(self):
         df = pd.read_csv(METADATA_FILE)
+        unprocessed_rows = (df["Processed"]== "Unprocessed").sum()
+        print(f"{unprocessed_rows} number of new links found")
+        processed_rows = 0
         for i, row in df.iterrows():
             if row["Processed"] == "Unprocessed":
+                processed_rows += 1
                 link = row["FOI URL"]
                 try:
                     response = self.session.get(link)
@@ -122,8 +126,10 @@ class FOIScraper:
                     df.at[i, "Processed"] = f"Network Error: {e}"
                 except Exception as e:
                     df.at[i, "Processed"] = f"Exception: {e}"
+                df.to_csv(METADATA_FILE, index=False)
+                print(f"{processed_rows} out of {unprocessed_rows} processed")
                 time.sleep(DELAY_BETWEEN_REQUESTS)
-        df.to_csv(METADATA_FILE, index=False)
+        
 
     def download_pdf(self, pdf_url):
         response = self.session.get(pdf_url)

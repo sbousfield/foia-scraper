@@ -8,7 +8,6 @@ __pycache__/
 # Project specific
 data/
 *.pdf
-*.csv
 
 # IDE
 .vscode/
