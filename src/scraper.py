@@ -81,7 +81,7 @@ class FOIScraper:
                     "FOI Date (Human)": foi_date_human_readable,
                     "FOI Title": foi_title,
                     "FOI URL": foi_link, 
-                    "PDF URL": None,
+                    "PDF URL": "No URL",
                     "Processed": "Unprocessed",
                     }
                 metadata_csv_dict_list.append(metadata_csv_dict)
@@ -125,7 +125,7 @@ class FOIScraper:
                     df.at[i, "Processed"] = f"Network Error: {e}"
                 except Exception as e:
                     df.at[i, "Processed"] = f"Exception: {e}"
-            time.sleep(DELAY_BETWEEN_REQUESTS)
+                time.sleep(DELAY_BETWEEN_REQUESTS)
         df.to_csv(METADATA_FILE, index=False)
 
     def download_pdf(self, pdf_url):
