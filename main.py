@@ -20,9 +20,10 @@ def main():
         #print("\nReady to start scraping!")
         response = scraper.session.get(scraper.base_url)
         soup = BeautifulSoup(response.content, 'html.parser')
-        metadata = scraper.parse_table(soup)
-        scraper.save_metadata_to_csv(metadata)
+        scraper.get_all_pages(soup, scraper.base_url)
+        exit()
         scraper.find_pdf_url()
+        
     else:
         print("\nCannot proceed - connection failed.")
         return

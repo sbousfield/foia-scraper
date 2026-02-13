@@ -47,8 +47,6 @@ class FOIScraper:
 
         rows = tbody.find_all('tr')
 
-        csv_name = 'dept_health_metadata'
-        #metadata_file_path = f'./data/metadata/{csv_name}.csv' 
         if Path(METADATA_FILE).exists():
             metadata_df = pd.read_csv(METADATA_FILE)
             processed_links = set(metadata_df['FOI URL'])
@@ -96,7 +94,6 @@ class FOIScraper:
             return
         else:
             df = pd.DataFrame(metadata_list)
-            #metadata_file_path = f'./data/metadata/{csv_name}.csv'
             if Path(METADATA_FILE).exists():
                 metadata_df = pd.read_csv(METADATA_FILE)
                 metadata_df = pd.concat([metadata_df, df], ignore_index=True)
@@ -133,3 +130,19 @@ class FOIScraper:
         pdf_name = pdf_url.split('/')[-1]
         with open(f"{DOWNLOAD_DIR}/{pdf_name}", 'wb') as f:
             f.write(response.content)
+    
+    def get_all_pages(self, soup, base_url):
+        last_li = soup.find('li', 'pager__item pager__item--last')
+        last_link = last_li.find('a')
+        href = last_link.get('href')
+        max_page_number = int(href.split('=')[1])
+        #print(max_page_number)
+        for i in range(0, max_page_number+1):
+            url = urljoin(base_url, f'?page={i}')
+            response = self.session.get(url)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            metadata = self.parse_table(soup)
+            self.save_metadata_to_csv(metadata)
+            if i < max_page_number:
+                time.sleep(DELAY_BETWEEN_REQUESTS)
+            
