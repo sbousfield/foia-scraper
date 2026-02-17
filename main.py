@@ -1,5 +1,6 @@
 """Entry point for FOIA scraper."""
 
+from src.config import DOWNLOAD_DIR
 from bs4 import BeautifulSoup
 from src.scraper import FOIScraper
 from pathlib import Path
@@ -11,7 +12,7 @@ def main():
     Path(PROJECT_ROOT, 'data/raw').mkdir(parents=True, exist_ok=True)
     Path(PROJECT_ROOT, 'data/metadata').mkdir(parents=True, exist_ok=True)
     
-    print("=== FOIA Document Scraper ===\n")
+    """print("=== FOIA Document Scraper ===\n")
     # Initialize scraper
     scraper = FOIScraper('Dept Health')
     
@@ -24,7 +25,13 @@ def main():
         scraper.find_pdf_url()
         
     else:
-        print("\nCannot proceed - connection failed.")
+        print("\nCannot proceed - connection failed.")"""
+    import pdfplumber
+
+    with pdfplumber.open(f'{DOWNLOAD_DIR}/foi-26-1876-roy-morgan-research.pdf') as pdf:
+        for page in pdf.pages:
+            text = page.extract_text()
+            print(text)
         return
 
 if __name__ == '__main__':
