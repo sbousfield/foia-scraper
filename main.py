@@ -1,10 +1,11 @@
 """Entry point for FOIA scraper."""
 
-from src.config import DOWNLOAD_DIR
+from src.config import DOWNLOAD_DIR, TEST_PDF_DIR
 from bs4 import BeautifulSoup
 from src.scraper import FOIScraper
 from pathlib import Path
 from src.config import PROJECT_ROOT
+from src.pdf_processing import PDFExtractor
 
 def main():
     """Main function to run the scraper."""
@@ -26,13 +27,12 @@ def main():
         
     else:
         print("\nCannot proceed - connection failed.")"""
-    import pdfplumber
-
-    with pdfplumber.open(f'{DOWNLOAD_DIR}/foi-26-1876-roy-morgan-research.pdf') as pdf:
-        for page in pdf.pages:
-            text = page.extract_text()
-            print(text)
-        return
+    extractor = PDFExtractor()
+    conn, curs = extractor.sqlite_database_connect('processed_documents.db') 
+    extractor.pdf_processing(conn, curs, TEST_PDF_DIR)
+    extractor.pdf_native_text_extraction(conn, curs, TEST_PDF_DIR)
+    extractor.pdf_ocr_text_extraction(conn, curs, TEST_PDF_DIR)
+    conn.close()
 
 if __name__ == '__main__':
     main()

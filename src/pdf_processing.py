@@ -78,10 +78,10 @@ class PDFExtractor:
         s = re.sub(pagenumber_watermark_pattern, "", s, flags=re.IGNORECASE)
         return s
 
-    def pdf_processing(self, curs):
+    def pdf_processing(self, conn, curs, download_dir=DOWNLOAD_DIR):
         curs.execute("SELECT FILENAME FROM DOCUMENTS")
         processed_documents = {row[0] for row in curs.fetchall()}
-        for pdf in os.listdir(DOWNLOAD_DIR):
+        for pdf in os.listdir(download_dir):
             if not pdf.lower().endswith(".pdf"):
                 continue
             elif pdf in processed_documents:
@@ -91,18 +91,20 @@ class PDFExtractor:
                 date_processed = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(processing_time_start))
                 filename = pdf
                 foi_reference_number = filename[:-4]
-                document = pymupdf.open(DOWNLOAD_DIR/pdf)
+                document = pymupdf.open(download_dir/pdf)
                 total_pages = len(document)
                 document_word_count = 0
                 curs.execute("""INSERT INTO DOCUMENTS (FILENAME, FOI_REFERENCE_NUMBER, PAGE_COUNT, DOCUMENT_WORD_COUNT) 
                             VALUES (?, ?, ?, ?)""", (filename, foi_reference_number, total_pages, document_word_count)
                             )
+                conn.commit()
+                document.close()
             except Exception as e:
                 print(f"Error processing {pdf}: {e}")
                 with open(Path(PROCESSED_DIR/'errors.txt'), 'a') as f:
                     print(f"{date_processed} - Error Processing ({pdf}): {e}", file=f) 
                 continue
-            document.close()
+            
     
     def processed_already(self, pdf, curs):
         documents_row = curs.execute("SELECT FILENAME, FOI_REFERENCE_NUMBER, PAGE_COUNT, DOCUMENT_WORD_COUNT FROM DOCUMENTS WHERE FILENAME = ?", (pdf,)).fetchone()
@@ -113,11 +115,11 @@ class PDFExtractor:
         processed_pages = {row[0] for row in curs.fetchall()}
         return processed_pages, filename, foi_reference_number, page_count, document_word_count
 
-    def pdf_native_text_extraction(self, curs, conn):
-        for pdf in os.listdir(DOWNLOAD_DIR):
+    def pdf_native_text_extraction(self, conn, curs, download_dir=DOWNLOAD_DIR):
+        for pdf in os.listdir(download_dir):
             if not pdf.lower().endswith(".pdf"):
                 continue
-            document = pymupdf.open(DOWNLOAD_DIR/pdf)
+            document = pymupdf.open(download_dir/pdf)
             processing_time_start = time.time()
             date_processed = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(processing_time_start))
             newly_processed_pages = 0
@@ -176,25 +178,26 @@ class PDFExtractor:
                                 AND FOI_REFERENCE_NUMBER = ?
                                 AND PAGE_COUNT = ?""", (document_word_count, filename, foi_reference_number, page_count))
                 conn.commit()
+                document.close()
             except Exception as e:
                 print(f"Error processing {pdf}: {e}")
                 with open(Path(PROCESSED_DIR/'errors.txt'), 'a') as f:
                     print(f"{date_processed} - Error Processing ({pdf}): {e}", file=f) 
                 continue
-            document.close()
+            
 
 
 
-    def pdf_ocr_text_extraction(self, curs, conn):
+    def pdf_ocr_text_extraction(self, conn, curs, download_dir=DOWNLOAD_DIR):
         reader = easyocr.Reader(['en'], gpu=True)
         # DPI chosen from analysis of a small corpus of documents in my test file/notebook
         # This is an obvious and easy change to make to see if other values return a better
         # file across multiple documents 
         DPI = 400
-        for pdf in os.listdir(DOWNLOAD_DIR):
+        for pdf in os.listdir(download_dir):
             if not pdf.lower().endswith(".pdf"):
                 continue
-            document = pymupdf.open(DOWNLOAD_DIR/pdf)
+            document = pymupdf.open(download_dir/pdf)
             cat = document.pdf_catalog()
             processing_time_start = time.time()
             date_processed = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(processing_time_start))
@@ -240,10 +243,10 @@ class PDFExtractor:
                                 AND FOI_REFERENCE_NUMBER = ?
                                 AND PAGE_COUNT = ?""", (document_word_count, filename, foi_reference_number, page_count))
                 conn.commit()
+                tmp_pdf.close()
+                os.remove(tmp_path)
             except Exception as e:
                 print(f"Error processing {pdf}: {e}")
                 with open(Path(PROCESSED_DIR/'errors.txt'), 'a') as f:
                     print(f"{date_processed} - Error Processing ({pdf}): {e}", file=f) 
                 continue
-            tmp_pdf.close()
-            os.remove(tmp_path)
