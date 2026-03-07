@@ -6,8 +6,12 @@ __pycache__/
 *.pyd
 
 # Project specific
-data/
+data/raw/
 *.pdf
+todolist.txt
+notebooks/test_txt/
+notebooks/errors.txt
+notebooks/test_extract_test.db
 
 # IDE
 .vscode/
