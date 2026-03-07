@@ -1,0 +1,38 @@
+2026-03-03 13:00:32 - Error Processing (foi-25-0134-ld-minister-wells-diary.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0211-ld-document-relating-to-the-future-fit-study-part-of-foi-25-0077-ld.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0299-ld-baby-formula-products-at-wha-2025.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0288-ld-data-related-to-hcps-and-chsp.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0431-ld-indigenous-liaison-officer-role.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0466-ld-costing-for-cdm-framework-changes-2023-24-budget.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0458-letter-from-western-nsw-phn-ceo-appointment.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-26-1951-access-to-official-ses-diary-entries.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0255-ld-mo-butler-speech-6-feb_0.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 13:00:32 - Error Processing (foi-25-0322-ld-mo-correspondence-with-the-saturday-paper.pdf): Error binding parameter 5: type 'function' is not supported
+2026-03-03 14:16:08 - Error Processing (foi-25-0211-ld-document-relating-to-the-future-fit-study-part-of-foi-25-0077-ld.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0299-ld-baby-formula-products-at-wha-2025.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0288-ld-data-related-to-hcps-and-chsp.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0431-ld-indigenous-liaison-officer-role.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0466-ld-costing-for-cdm-framework-changes-2023-24-budget.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0458-letter-from-western-nsw-phn-ceo-appointment.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0255-ld-mo-butler-speech-6-feb_0.pdf): 'set' object has no attribute 'get'
+2026-03-03 14:16:08 - Error Processing (foi-25-0322-ld-mo-correspondence-with-the-saturday-paper.pdf): 'set' object has no attribute 'get'
+2026-03-03 15:02:27 - Error Processing (foi-25-0134-ld-minister-wells-diary.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0211-ld-document-relating-to-the-future-fit-study-part-of-foi-25-0077-ld.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0299-ld-baby-formula-products-at-wha-2025.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0288-ld-data-related-to-hcps-and-chsp.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0431-ld-indigenous-liaison-officer-role.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0466-ld-costing-for-cdm-framework-changes-2023-24-budget.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0458-letter-from-western-nsw-phn-ceo-appointment.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-26-1951-access-to-official-ses-diary-entries.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0255-ld-mo-butler-speech-6-feb_0.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0322-ld-mo-correspondence-with-the-saturday-paper.pdf): list index out of range
+2026-03-03 15:02:27 - Error Processing (foi-25-0029-ld-living-my-way-acquittals.pdf): list index out of range
+2026-03-03 15:02:39 - Error Processing (foi-25-0134-ld-minister-wells-diary.pdf): list index out of range
+2026-03-03 15:02:40 - Error Processing (foi-26-1951-access-to-official-ses-diary-entries.pdf): list index out of range
+2026-03-03 15:02:40 - Error Processing (foi-25-0029-ld-living-my-way-acquittals.pdf): list index out of range
+2026-03-03 15:04:38 - Error Processing (foi-25-0134-ld-minister-wells-diary.pdf): list index out of range
+2026-03-03 15:04:39 - Error Processing (foi-26-1951-access-to-official-ses-diary-entries.pdf): list index out of range
+2026-03-03 15:04:39 - Error Processing (foi-25-0029-ld-living-my-way-acquittals.pdf): list index out of range
+2026-03-03 15:05:08 - Error Processing (foi-25-0134-ld-minister-wells-diary.pdf): list index out of range
+2026-03-03 15:05:09 - Error Processing (foi-26-1951-access-to-official-ses-diary-entries.pdf): list index out of range
+2026-03-03 15:05:09 - Error Processing (foi-25-0029-ld-living-my-way-acquittals.pdf): list index out of range

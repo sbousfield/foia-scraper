@@ -1,0 +1,7 @@
+1) test pdf text extraction modules, then compare them to OCR for maybe 5-10 documents total (I'll select random ones and put them in a subfolder so I can do the ocr while I'm at work or sometihg).
+
+2) document which method I'm choosing and why (mini write up)
+
+3) use method on all 804 pdfs, with chunking, so I can run it while I'm at work for a week or something if it is OCR
+
+4) Decide how I'm going to do my analysis/what analysis I'm actually going to do (4 will be somewhat concurrent with the other 3)

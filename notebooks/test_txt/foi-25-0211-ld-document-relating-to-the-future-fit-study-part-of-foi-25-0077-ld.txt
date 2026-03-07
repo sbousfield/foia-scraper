@@ -1,0 +1,894 @@
+Page 1 of 2
+FOI 25-0211 LD - Document 3
+s22
+From: 
+Sent: 
+To: 
+Cc: 
+Subject:
+Minister Wells 
+Monday, 12 February 2024 3:15 PM
+MPS 
+Minister Wells 
+MC24-002248 A SERVICE LED FUTURE [SEC=OFFICIAL] 
+Categories: 
+s22
+M C24-002248 
+D response – HRD 
+Thanks, 
+s22
+(Graduate) 
+From: 
+Sent: Saturday, February 10, 2024 11:13 PM 
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+@foodservices.org.au> 
+To: Minister Wells <Minister.Wells@Health.gov.au>; Minister.Wells@aph.gov.au 
+Subject: A SERVICE LED FUTURE 
+REMINDER: Think before you click! This email originated from outside our organisation. Only click links or open attachments if 
+you recognise the sender and know the content is safe. 
+Dear Minister Wells, 
+We are wriƟng to you as Convenors of New South Wales and Queensland FUTURE FIT Meal Services. 
+FUTURE FIT has representaƟves from not only our two States, but also representaƟves from Tasmania and Victoria 
+Meal Services. A number of services have contacted us raising concerns in relaƟon to the current issues regarding to 
+the future of the study, but also the opportunity to realise the beneﬁts intended from FUTURE FIT. 
+Over the last two years frontline Meals on Wheels Services have parƟcipated enthusiasƟcally in FUTURE FIT. 
+CollecƟvely, we have contributed our unfunded Ɵme and eﬀort to the development of soŌware as part of this 
+transformaƟon program. We have built the foundaƟon of a future operaƟng model and we are all now concerned 
+that others may seek to take away our ideas and autonomy to suit their own purposes. 
+We believe the only way to counter this and associated market distorƟon and/or vendor lock‐in, is to make the 
+soŌware developed through FUTURE FIT, open source. 
+. We hope that Government will support this approach to ensure conƟnued collaboraƟon, unity and 
+s47G
+transparency for Meals on Wheels services (and other CHSP meal providers) all of whom will be able to beneﬁt from 
+open source soŌware. If this approach is not supported then the market distorƟon and opportunity for exploitaƟon 
+of frontline CHSP services will conƟnue. We acknowledge the former and current government’s support to help us 
+get this far. However from hereon we need to take responsibility and control of our own desƟny. 
+Our intenƟon is to build an open source community where everyone is welcome and can contribute to the conƟnual 
+evoluƟon of the soŌware to meet our requirements. The only condiƟon on this open source community will be that 
+no one can use what we have built to commercialise it in any way. 
+1 
+-
+-
+Page 2 of 2
+FOI 25-0211 LD - Document 3
+The community will be governed by a not‐for‐proﬁt enƟty and an advisory board, both made up only of frontline 
+services. Our charter will ensure that we operate on an equitable and transparent basis for the beƩerment of the 
+Older Australians we serve. 
+We look forward to being able to share this vision in more detail as we take this opportunity forward. 
+s47F
+ Sutherland Food Services  
+New South Wals FUTURE FIT Convenor 
+s47F
+Ipswich Meals on Wheels 
+Queensland FUTURE FIT Convenor 
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+430 Kingsway, Caringbah NSW 2229 
+T 1300 637 301 M 
+E s47F@foodservices.org.au 
+W sutherlandfoodservices.com.au 
+The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this 
+message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and 
+follow with its deletion, so that we can ensure such a mistake does not occur in the future. 
+2 
+--
+t.00% 
+STAFF~ vci:.uHTnRS 
+ser;iv1CES 
+V CC 
+D 
+-
+-
+-----
+00 
+Page 1 of 2
+FOI 25-0211 LD - Document 4
+s22
+From: 
+Sent: 
+To: 
+Cc: 
+Subject:
+Attachments: 
+Minister Wells 
+Wednesday, 20 March 2024 9:35 AM
+MPS 
+Minister Wells 
+MC24-004534 - Open Care Tech announcement [SEC=OFFICIAL]
+Media release UNDER EMBARGO UNTIL 12.01AM 21 MARCH 2024.docx 
+Categories: 
+s22
+M C24-004534 
+HRD 
+For noting 
+Kindly, 
+s22
+Cc: 
+@Health.gov.au>; 
+@Health.gov.au>; 
+@futurefitcollective.net.au 
+Subject: Open Care Tech announcement 
+s47F
+s47F
+s47G(1)(a)
+From: 
+Sent: Wednesday, March 20, 2024 7:32 AM 
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+@foodservices.org.au> 
+To: Minister Wells <Minister.Wells@Health.gov.au>; Minister.Wells@aph.gov.au 
+REMINDER: Think before you click! This email originated from outside our organisation. Only click links or open attachments if 
+you recognise the sender and know the content is safe. 
+EMBARGOED UNTIL 12.01AM 21 MARCH 2024 
+Dear Minister Wells 
+Further to my email to you on 10 February 2024, I am writing to let you know we will be launching Open 
+Care Tech this Thursday 21 March. Our media release which is embargoed until 12.01am Thursday 21 
+March 2024 is attached for your reference. 
+Our decision to make the software we helped to develop freely available will not only benefit the wider 
+community but also maximise the impact of the government’s investment in Future Fit. We believe that 
+this approach aligns with the objectives of the government to promote accessibility and advance 
+technology, as well as setting a precedent for further investments to also be shared across the network. 
+We believe that this collaborative approach will foster innovation, reinforce a strengthened sense of 
+community, drive improvements, and ultimately support our common goal, which is to enhance the 
+quality of in‐home care. 
+Tomorrow, the Open Care Tech code base will be available for any vendor, developer, CHSP, HCP or NDIS 
+service provider to use – in whole or part. The only condition being that they similarly make any use or 
+enhancement of the code open and free for others to use. 
+1 
+-
+-
+Page 2 of 2
+FOI 25-0211 LD - Document 4
+We have the support of vendors currently providing products to meals on wheels providers, because as 
+anyone experienced in open‐source software knows, a vibrant commercial ecosystem is essential to our 
+continued growth and success. We hope that the release of the software as an open‐source project will 
+encourage transparency and excellence within the vendor community. 
+This is the legacy of the Future Fit project and of the efforts meals on wheels services involved in the now 
+abandoned Feasibility Study. It is only due to the commitment of these meals on wheels services that it 
+will now be possible for every aged care provider to benefit from the code, should they want to. Making 
+this software open‐source limits the risk of coercion or vendor lock‐in or commercially motivated financial 
+barriers to what is essentially a taxpayer funded resource. We hope that Open Care Tech sets a precedent 
+for future government technology investments. 
+We would welcome the addition of an attributable quote from you to include in our media release. We 
+would also like to offer a meeting with you or your office at any time to discuss the work Future Fit 
+Collective and the benefits of Open Care Tech. 
+Kind regards, 
+Manager 
+s47F
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+430 Kingsway, Caringbah NSW 2229 
+E 
+s47F
+T 1300 637 301 M 
+@foodservices.org.au 
+W sutherlandfoodservices.com.au 
+The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this 
+message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and 
+follow with its deletion, so that we can ensure such a mistake does not occur in the future. 
+2 
+-
+S.U'JiHE!lLAN D 
+F 
+D 
+00% 
+lSTAF1' & VOUJNTEf:115 
+C 
+-
+-
+-----
+00 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 5 
+UNDER EMBARGO UNTIL 12.01AM 21 MARCH 2024 
+MEDIA RELEASE 
+FUTURE FIT COLLECTIVE ANNOUNCES OPEN-SOURCE SOFTWARE 
+21 March 2024 
+For the first t ime ever, in-home care providers will be able to use and contribute to the same 
+technology under an announcement made by a handful of reformist meals on wheels providers today. 
+A new entity called Future Fit Collective, which named after the government-funded transformation 
+project the founding members were involved in, will be responsible for guiding the development of 
+the software. 
+"Today marks a new era in how software can be used to provide essential infrastructure to 
+government-funded in-home care providers in a way that upholds the principle of market parity." 
+Peter Gallagher, Manager of Tamworth Meals on Wheels and Founding Director of Future Fit 
+Collective said. 
+The software called Open Care Tech can currently support basic operations of meal providers 
+delivering fresh and/or frozen meals to older Australians, National Disability Insurance Scheme 
+participants or private clients. 
+Two care providers have already committed to using Open Care Tech and investing in its 
+development, with more expected to follow. 
+It is expected that a lively vendor and developer community will form around Open Care Tech, 
+helping end users adapt the platform to meet their needs, as well as providing support to access and 
+use the software on an ongoing basis. 
+The licensing arrangement means anyone can use the software on the condition that any 
+improvements made in alternate versions of the program also be open-source. 
+Providing open-source software to anyone w ho wants it, will not only save taxpayers money, but will 
+help all care providers improve the quality of their services through modern infrastructure. 
+By collaborating and pooling resources, technology can advance commensurate with the demand for 
+specific functions, w ith a greater ability to adapt to a frequently changing operating environment. 
+A number of existing vendors in the aged care sector, designers and developers have offered to 
+contribute to the software to help in-home care providers improve useability and functionality. 
+At least once a quarter, Future Fit Collective will release a list of priority enhancements and 
+functionality based on consultation and feedback, so that contributors have a clear understanding of 
+what work w ill provide the greatest benefits both to current users and the broader community. 
+The objective of any aged or disability care service should be to have more time to spend with 
+clients. By being part of this initiative service providers will benefit from the co-investment of other 
+services, helping to lift the quality of care across everyone involved. 
+The Future Fit Collective is encouraging anyone who needs the software to use it, and anyone who 
+wants to contribute to the software's enhancement to do so - for the greater good. 
+Developers who would like to be involved or contribute time to this initiative, and care providers 
+who would like to use Open Source Tech can email 7Gl'lf(a @futurefitcollective.net.au or go to 
+futurefitcollective.net.au 
+Page 1 of 2 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 5 
+Quotes attributable to SL1-7F 
+from Dubbo Meals on Wheels (Founding 
+------------
+Director of Future Fit Collective Ltd): " Meals on wheels might be thought of as an old brand, but you 
+don't get to hang around this long without knowing how to embrace new and better ways of doing 
+things." 
+Quotes attributable to 
+7F 
+of Sutherland Food Services (Founding Director of 
+Future Fit Collective Ltd): "Building a community of users and ecosystem of paid and volunteer 
+developers is not dissimilar to what each of us does in running a meal service." 
+"Anyone who has managed a volunteer-driven organisation knows that being able to point to the 
+public good is critical in being able to recruit people to your cause - and this is a unique opportunity 
+for the IT sector to show some love, albeit in-directly, to their grand-parent's generation." 
+Quotes attributable to 
+7F 
+of Meals on Wheels Central Coast (Director of Future 
+--------
+Fit Collective Ltd and first service to use Open Care Connect): "We are all better, and stronger, 
+together - rather than people spending time and money doing the same or similar things over and 
+over again - w hy wouldn't we share the technology we helped build, so that w e can all spend more 
+time w ith our clients." 
+"We are one of the largest meals on wheels services in New South Wales, and if this technology 
+works for us then I am sure it will do wonders for smaller services perhaps w ithout the capital base 
+to invest in bespoke software designed to improve the quality and efficiency of in-home meal 
+services." 
+- ENDS-
+Media contact -&1-7F 
+Page 2 of2 
+Page 1 of 1
+FOI 25-0211 LD - Document 6
+From: 
+Minister Wells 
+To: 
+MPS 
+Cc: 
+Minister Wells 
+Subject: 
+MC24-005508 [SEC=OFFICIAL] 
+Date: 
+Wednesday, 3 April 2024 2:16:12 PM 
+Attachments: 
+image001.png 
+MC24-005508 
+For noting – HRD please 
+Thanks, s22
+From: s47G(1)(a)@futurefitcollective.net.au < s47G(1)(a)@futurefitcollective.net.au> 
+Sent: Wednesday, April 3, 2024 12:13 PM 
+To: Minister.Wells@aph.gov.au; Minister Wells <Minister.Wells@Health.gov.au> 
+Cc: 
+@Health.gov.au> 
+s47F
+Subject: 
+REMINDER: Think before you click! This email originated from outside our organisation. Only click links or open 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+attachments if you recognise the sender and know the content is safe. 
+Dear Minister 
+Further to our email about launching Open Care Tech, we are pleased to let you know we are 
+making great progress with developers and service providers putting their hands up to be involved 
+in this great initiative. 
+There is no doubt that providing free and open software, where contributions can be shared and 
+duplicated effort reduced. It gives service providers a sense of what the future might hold, where 
+the point of difference are the services on offer and the quality of care – not the ability to pay large 
+amounts of money for technical infrastructure. 
+The first location where the software will be deployed is likely to be Open Arms Care who deliver 
+88,000 meals per year across northern New South Wales. We would like to extend an invitation 
+for you to visit Open Arms Care and see how your investment in Future Fit is benefiting a regional 
+aged care service provider, and most importantly, their clients and local community. We will 
+extend an invitation for each service as they are onboarded, as well as for companies donating 
+time or money to our cause. 
+While it has no doubt been challenging for some people to see the responsibility for our own 
+future shift into the our own hands as frontline services, we can assure you that nothing will 
+dissuade us from our mission: to provide backbone infrastructure, in the form of dynamic and 
+adaptable open-source software, so that community-based organisations can thrive in a 
+challenging and changing operating environment. 
+If you would like more information, please feel free to contact me us on 
+Our website is also an easy point of reference, if anyone in your office should have any questions: 
+Future Fit Collective - delivering Open Care Tech to the care community 
+The Directors 
+-
+-
+---- -
+----
+Page 1 of 1
+FOI 25-0211 LD - Document 7
+s47F
+s47F
+s47G
+s22
+From: 
+Paul Sadler < 
+@mealsonwheels.org.au> 
+Sent: 
+Friday, 12 April 2024 3:16 PM 
+To: 
+Cc: 
+; Robbie Millar; Chris Watt 
+Subject: 
+Letter of support for 
+Attachments: 
+MOWA MOW NSW and MOW VIC letter to The Hon. Anika Wells MP.pdf 
+anika.wells.mp@aph.gov.au 
+CONNOLLY, Thea; Invites.Wells; 
+REMINDER:Think before youclick!This email originatedfrom outside our organisation.Only clicklinksor
+open
+attachmentsif you recognisethe sender
+and know the content is safe.
+Dear Minister 
+Please ﬁnd aƩached a leƩer supporƟng an applicaƟon by
+ for assistance following the 
+departure of Miles Morgan Australia from management of 
+Regards 
+Paul Sadler 
+Chair 
+Mealson Wheels™ Australia
+m: 
+e: 
+s47F
+s47F@mealsonwheels.org.au 
+w: mealsonwheels.org.au 
+. 
+s47G
+s47G
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+1 
+•• Meals on Wheels'" 
+Australia 
+• 
+Page 1 of 2
+FOI 25-0211 LD  - Document 8
+12 April 2024 
+The Hon. Anika Wells, MP 
+Minister for Aged Care 
+Department of Health and Aged Care 
+By email: anika.wells.mp@aph.gov.au 
+Cc: 
+Thea Connolly, First Assistant Secretary, Home & Residential, 
+s47F
+@health.gov.au 
+s47F
+, s47E(d)
+@health.gov.au 
+s47F
+@health.gov.au 
+Dear Minister 
+Re: s47G
+s47(1)(b)
+We write to you regarding 
+operation of 
+as a Future Fit pilot site, and 
+s47G
+s47G
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+Meals on Wheels and the future of the Future Fit program 
+the future of the Future Fit program. 
+TM
+Meals on Wheels
+Australia Limited 
+PO Box 406, Unley SA 5061 | t: 08 8271 8700 | e: australia@mealsonwheels.org.au 
+•• 
+Meals on Wheels" 
+Australia 
+Page 2 of 2
+FOI 25-0211 LD  - Document 8
+s47(1)(b)
+Meals on Wheels Australia Limited (MOWA), Meals on Wheels NSW Ltd (MOW NSW) and 
+the Victorian Meals on Wheels Association Inc (MOW VIC) support s47G
+s47G
+to undertake the above steps urgently while the Future Fit 
+program is in abeyance. 
+Future of the Future Fit program 
+We understand that: 
+• 
+The s47G
+site has been used as the test case for the deployment of the 
+new modernised Enterprise Resource Planning (ERP) system that aims to reduce 
+the administrative burden on services, while improving the ability to track and report 
+on key data indicators that the Department of Health and Aged Care (DoHAC) needs 
+to support decision making processes. 
+• 
+The ERP was due to be deployed on 3 July, following which the plan was for DoHAC 
+to commence a feasibility study with Meals on Wheels services to help inform future 
+policy settings under in home aged care reforms, including trialling new funding and 
+pricing settings under the current block funded arrangements. 
+• 
+Under the study, the services would: 
+o Seek to co-design a new standardised definition of a meal as well as how to 
+reflect social support that can be applied to in-home aged care. 
+o Rollout the ERP and provide near real-time data on meal services, volunteer 
+interactions, client demographics/choice and costs of production to the 
+DoHAC. 
+o Co-design new funding structures to test what could be administered under 
+the 24-25 CHSP extension. 
+• 
+The study was to be supported by the rollout of a new online ordering platform tool 
+where consumers could be provided with additional choices in the selection of meals. 
+We have not sought the specific views of other peak Meals on Wheels bodies for the 
+purposes of this letter but wish to express MOWA, MOW NSW and MOW VIC’s support for 
+the above objectives to ensure the network can continue to thrive. We envisage these 
+objectives could be achieved through, or with close association with, the Meals on Wheels 
+The undersigned peak bodies are united in our support for the service at 
+and the 
+administration of the service in its current format by 
+. 
+Yours faithfully 
+Paul Sadler 
+Chris Watt 
+Robbie Millar 
+s47F
+s47F
+s47F
+s47G
+s47G
+s47G
+s47G
+s47G
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+peak organisations and, initially, trial sites like 
+on the understanding that 
+remains committed to the ongoing viability and success of the Future Fit 
+program. 
+President 
+President 
+President 
+Meals on Wheels Australia 
+Meals on Wheels NSW 
+Meals on Wheels VIC 
+s47F@mealsonwheels.org. 
+s47F
+@tweedmeals.o 
+au 
+rg 
+s47F
+M: s47F
+M: s47F
+M: s47F
+-
+-
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 9 
+M C24-005915 
+Senator the Hon. Katy Gallagher 
+Minister for Finance 
+Minister for Women 
+Minister for the Public Service 
+Manager of Government Business in the Senate 
+Senator for the Australian Capital Territory 
+The Hon Anika Wells MP 
+Minister for Aged Care · 
+PO Box 6022 
+House of Representatives 
+Parliament House 
+Canberra ACT 2.600 
+Dear ~s~
+1 C:.OI 
+I write to you to make representations on behalf of the Directors of Future Fit Collective, a 
+coalition of meals-on-wheels services committed to providing open-source software to assist 
+community-based organisations in their day-to-day operation. 
+Future Fit Collective have expressed concerns regarding a sub-contractor claiming rights to 
+their software, jeopardising their ability to continue providing this service. 
+• 
+I understand that Future Fit Collective feels that the actions of this sub-contractor are 
+contrary to the support needed for community services. 
+Future Fit Collective request a meeting to discuss the challenges they are facing, as well as 
+future opportunities. 
+In bringing this issue to your attention, I have enclosed a copy of Future Fit Collective's 
+original correspondence and ask the you respond directly to: 
+Future Fit Collective 
+Email: ts,~ 7 G 
+:@futurefitcollective.net.au 
+Phone~s47G 
+l 
+------
+Minister for Aged Care 
+Mini,t,>t (nr Sporl 
+Thank you in advance for your favourable consideration of this matter. 
+Yours sincerely 
+cgty~
+gh~ ~ 
+·j;I '\ b .• APR 2024 ! 
+~
+• 
+-
+·· 
+/ :,••1y' 
+Acr 
+t 
+,ois:er 
+i 
+·poose 
+·, y Cl)ief of slat! q Phone can 
+.J Adviser 
+O Information 
+Senator for the ACT 
+\ ~ April 2024 
+0 Department 
+• .Qlfler 
+. . "!Campaign 
+• l!J Constituent 
+U Background 
+0 Information 
+fJRequired 
+Qimm~ 
+Parliament House, CANBERRA. ACT. 2600 • PHONE: (02) 6277 7 400 
+senator.katy.gallagher@aph.gov.au • www.katygallagher.com.au 
+□Urgent by 
+~~ 
+ti Refer to 
+-·--···· 
+Page 1 of 3 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 9 
+From: 
+sll-7 F 
+{Sen K. Gallagher) [ 4 7 F 
+~ aph.gov.au > 
+Sent: 
+To: 
+Monday, 15 April 2024 2:35 PM 
+s:;i 7F 
+(A. Wells, MP) 
+Subject: 
+Future Fit Collective Original Correspondence 
+REMINDER: Think before you click! This email originated from outside our organisation. Only click links or open attachments if 
+you recognise the sender and know the content is safe. 
+HlS~7F 
+Sorry for the mix-up on the Future Fit Collective representation! 
+Here is the original piece of correspondence: 
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• 
+From~~7G 
+futurefitcollective.net.au [ 47G 
+~ futurefitcollective.net.au> 
+Sent: Thurs ay, April 4, 2024 1:57 PM 
+To: Pocock, David (Senator Office) <Senator.Dayjd.Pocock@aph.gov.au>; Gallagher, Katy (Senator) 
+<Senator.Katy.Gallagher@aph.gov.au>_ ==----. 
+Cc:s47F 
+Sen D. Pocock) s47F 
+Subject: OPEN CARE TECH 
+------
+Commercial in Confidence I Without Prejudice 
+Dear Minister Gallagher and Mr Pocock 
+Future Fit Collective represents a coalition of Meals on Wheels Services who were previously involved in a 
+government funded reform program "Future Fit". 
+Future Fit's aim was to provide Government with a consistent service model and basic backbone 
+infrastructure with the objective that Government can adequately map, fund and develop meal services 
+across Australia. The Future Fit program was funded by Australian taxpayers for the benefit of older 
+Australians. 
+Future Fit was unlike any other, in that grass roots meal services were engaged to provide their knowledge, 
+experience and t ime, outside of management of their individual services and commitment to their respective 
+local communities. In the past Peak Bodies, with no real day to day exposure to service delivery, have been 
+engaged by Government for information. 
+The resultant technology from the Future Fit program could not have been built without this knowledge, 
+experience and input. Since the decision to halt the Future Flt program, the connections made through the 
+experience has seen the birth of Future Fit Collective to continu.e to build and grow shared resources across 
+the network, hence Open Care Tech. 
+Our aim is for Open Care Tech to be open-source software. Our decision to make the software we helped to 
+develop freely available will not only benefit the wider community but also maximise the impact of the 
+Government's Investment in Future Fit. We believe that this approach aligns with the objectives of the 
+government, and the procurement working group you both participate in, to promote accessibility and 
+advance technology, as well as setting a precedent for further investments to also be sharec;l across the 
+sector. 
+1 
+Page 2 of 3 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 9 
+We believe that this collaborative approach will foster innovation, reinforce a strengthened sense of 
+community, drive improvements, and ultimately support our common goal, which is to enhance the 
+quality of in-home care. 
+As not for profit entities, funded by GovernmentiJll}rJ.un.c:l.iIDtis..fl...Q.UlloQ..al...Q.!,.._,_...,_,,,,u,.,_n..,,,it,,_,ie""'s'-'a""'n.,_,,d~t,.,_h~e~o""'l::::.de~r~-
+Australians livin in those various communitiesJS4 7G 
+~ 
+7G 
+Our aim is only to provide an open-
+source software to meal provides with the benefit to those we serve, our customer base. 
+We see our mission of demonstrating the value of open-source tech to be aligned with your collective wish to 
+get better outcomes from government procurement, especially for information technology. However, we are 
+concerned that the very companies you are working with - the ones that are using your discussions for self-
+promotion - are showing themselves to be bad actors against the very community services that you want to 
+see thrive. 
+We would welcome a more fulsome discussion about the challenges we have faced and the opportunities we 
+are creating, on our own accord. 
+You can read more about our open-source initiative here: Future Fit Collective - delivering Open Care Tech to 
+the care community 
+Kind regards 
+The Directors 
+Future Fit Coflectiv& 
+1aoom&A4 
+enqulrie&~Ul81lt<:c< ,e,c:,tr~ llll(.OU 
+•••••••••••••••••••••••••m•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• 
+Kind regards 
+~4 7 F 
+t e/him/his) 
+thee of Senat r the Hon. Katy Gallagher 
+Minister for Finance I Minister for Women I Minister for the Public Service 
+Senator for the Australian capital Territory 
+P. 6230S2r7 
+E. :if7 
+h. ov.au 
+2 
+Page 3 of 3 
+FOI 25-0211 LD - Document 14
+Ref No: MC24-005915 
+Directors 
+Future Fit Collective 
+enquiries@futurefitcollective.net.au 
+Dear Directors of Future Fit Collective 
+I refer to your correspondence of 15 April 2024 to the Minister for Finance and Minister for 
+Women and Minister for the Public Service, the Hon Katy Gallagher MP, regarding Open 
+Care Tech. Your letter has been referred to the Minister for Aged Care and Minister for 
+Sport, the Hon Anika Wells MP. The Minister has asked me to reply. 
+s47G
+s47(1)(b)
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+GPO Box 9848 Canberra ACT 2601 
+Page 1 of 9
+Australian Government 
+Department of Health and Aged Care 
+FOI 25-0211 LD - Document 14
+2 
+I appreciate your support in helping us better understand the issues you’ve raised. I would 
+be grateful for a response by 28 June. Following this response, I would still be interested in 
+meeting with the Future Fit Collective to discuss your broader vision. 
+Thank you for writing on this matter. 
+Yours sincerely 
+s47F
+Thea Connolly 
+First Assistant Secretary 
+Home and Residential Division 
+5 June 2024 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+Page 2 of 9
+FOI 25-0211 LD - Document 14
+Page 3 of 9
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+@health.gov.au> 
+ Tuesday, April 30, 2024 2:17 PM 
+ Minister Wells DLO 
+@Health.gov.au> 
+@health.gov.au>; 
+@health.gov.au>; MPS 
+@health.gov.au> 
+ RE: MC24-005915 : PDMS Notification - Record Assigned [SEC=OFFICIAL] 
+Good afternoon DLOs 
+ request below to downgrade MC24-005915 to a D reply. 
+Ministerial Coordination Officer | Ministerial and Parliamentary Services Branch (MPS) 
+People, Communication and Parliamentary Division | Corporate Operations Group 
+Australian Government, Department of Health and Aged Care 
+MPS Hotline: 02 6289
+ | E: 
+@health.gov.au 
+s47E(d)
+s22
+s22
+s22
+s47E(d
+)
+s47E
+(d)
+s22
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOI 25-0211 LD - Document 14
+From: 
+"Minister Wells DLO" 
+Sent:    
+30/04/2024 2:43:09 PM 
+To: 
+"MPS" 
+@health.gov.au>; "Minister Wells DLO" 
+@Health.gov.au> 
+Cc:            
+@health.gov.au>; 
+@health.gov.au> 
+Subject:           
+RE: MC24-005915 : PDMS Notification - Record Assigned [SEC=OFFICIAL] 
+Categories: 
+s47E(d
+)
+s47E(d)
+s22
+s22
+s22
+Kindly, 
+s22
+Happy with a D response, thank you 😊 
+From: MPS 
+Sent: 
+To: 
+Cc: 
+s47E(d
+)
+Subject: 
+Please find 
+Kind regards 
+s22
+s47E(d)
+Location: Sirius Building, 6.N.1 
+PO Box 9848, Canberra ACT 2601, Australia 
+The Department of Health and Aged Care acknowledges First Nations peoples as the Traditional Owners of Country throughout 
+Australia, and their continuing connection to land, sea and community.  
+We pay our respects to them and their cultures, and to all Elders both past and present. 
+Page 4 of 9
+-
+-
+- -
+-
+-
+- •--
+Australian Government 
+Department of Health and Aged Care 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOi 25-0211 LO - Document 14 
+From: 
+@health.gov.au> 
+Sent: Tuesday, April 30, 2024 1:33 PM 
+To: MPS lE(d@health.gov.au> 
+Cc: 
+@health.gov.au> 
+Subject: FW: MC24-005915 : PDMS Notification - Record Assigned [SEC=OFFICIAL] 
+Hi Team 
+Gallagher's letter asks for us to respond directly to the group who wrote to her. Are we able to convert 
+this Min response to a D response? Or can we NFA MC24-005915 and create a separate PDR? 
+Thanks for your advice 
+E7 
+From: noreply@pws.gov.au <noreply@pws.gov.au> 
+Sent: Tuesday, April 30, 2024 12:54 PM 
+To: 
+2 
+@health.gov.au> 
+Subject: MC24-005915 : PDMS Notification - Record Assigned [SEC=OFFICIAL] 
+SEC=OFFICIAL 
+Chloe STODDART has assigned MC24-005915 to 
+2 ---------
+Click on the above link to open the record in Microsoft Edge. 
+Meals on Wheels Services - Senator Gallagher obo Future Fit 
+Collective 
+Minister Reply 
+Hi· 2 
+as discussed - letter indicates a direct response to the 
+Subject 
+Type 
+Processing 
+Instructions 
+Collective. Can you please talk to MinCoITo team to get re-allocated as 
+a depaii mental. thanks, Chloe 
+Milestones 
+Due for Clearance: 30/04/2024 12:00:49 PM 
+Due to Parliamentaiy: 30/04/2024 2:00:49 PM 
+Due to Ministers Office: 1/05/2024 5:00:49 PM 
+Critical Date: 
+Responsible 
+!Ageing and Aged Carel Home and Residential 
+Area 
+Status 
+Draft 
+*Please note if any fields are empty, the associated field has not been populated in PDMS. 
+Page 5 of 9 
+FOI 25-0211 LD - Document 14
+Have a question or would like to organise some training? 
+Contact the Ministerial and Parliamentary Services Branch on 02 6289 s47E(d) You can also visit 
+the MPS Intranet page for the latest information, news, and events.  
+Thank you 
+PDMS Notification Service  
+Please do not reply to this automated message. 
+SEC=OFFICIAL 
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+Page 6 of 9
+-
+FOI 25-0211 LD - Document 14
+Page 7 of 9
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+FOI 25-0211 LD - Document 14
+Ref No: MC24-002248 
+Sutherland Food Services 
+s47F
+NSW Future Fit convenor 
+s47F
+@foodservices.org.au 
+s47F
+Ipswich Meals on Wheels 
+Queensland Future Fit Convenor 
+Dear
+ and 
+s47F
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+Thank you for your correspondence of 12 February 2024 and 20 March 2024 to the Minister 
+for Aged Care and Minister for Sport, Hon Anika Wells MP regarding Future Fit Meal Services 
+and Open Care Tech, respectively. The Minister has asked me to reply. 
+The department recognises the time and effort you have put into developing the Future Fit 
+deliverables with the ultimate goal of supporting older people to access nutritious meals 
+and to help ensure viability of organisations that provide those meals and accompanying 
+social supports. 
+The contract with Miles Morgan Australia (MMA) to support the Future Fit project ended on 
+31 December 2023. In January the Department of Health and Aged Care put in place a 
+transitional contract with MMA. This contract was to close out the Future Fit project and to 
+fully transition any MMA administration at Whitehorse while consideration was given by the 
+Australian Government on the next steps for reforms. However, MMA notified the 
+department on 31 January 2024 that it will no longer be involved in the proposed meals 
+Feasibility Study, which was to be the likely next stage of Future Fit. The department is 
+therefore considering its options before preparing advice to government. 
+s47G(1)(b)
+We welcome your offer to discuss the Future Fit Collective and Open Care Tech with you. 
+The below questions build on those I posed to you on 20 March: 
+GPO Box 9848 Canberra ACT 2601 
+Page 8 of 9
+Australian Government 
+Department of Health and Aged Care 
+-
+- - -
+- -
+FOI 25-0211 LD - Document 14
+2 
+s47G(1)(b)
+I will ask my team to arrange a time to discuss these important issues. Thank you for writing 
+on this matter. 
+Yours sincerely 
+s47F
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health and Aged Care
+Thea Connolly 
+First Assistant Secretary 
+Home and Residential Division 
+4 April 2024 
+Page 9 of 9
+

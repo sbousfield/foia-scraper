@@ -1,0 +1,1473 @@
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health, Disability and Ageing
+OTECTED
+Recommendation 1:
+Purpose
+Estimate the impact on volume and spend of this recommendation
+Legend: 
+Method
+Estimate the equalized fee for items and volume shifts
+< text >
+Assumptions which can be directly adjusted
+<text>
+Forecast Assumption
+No change expected
+Item(s) affected
+Data 2021/2022
+Current
+Change
+Item number
+Volume
+Estimated 
+Benefit/Service
+Scheduled Fee
+Benefits Paid
+Volume
+Fee
+Spend
+723
+2,374,675
+118 95
+$   
+    
+118.95
+$   
+    
+282,457,776
+100%
+92025
+126,515
+118 96
+$   
+    
+118.95
+$   
+    
+15,050,779
+100%
+23
+71,255,105
+39.43
+$   
+    
+39.10
+$   
+    
+2,809,258,586
+101%
+91800
+1,110,551
+39 52
+$   
+    
+39.10
+$   
+    
+43,893,961
+101%
+732
+3,609,238
+74 95
+$   
+    
+74.95
+$   
+    
+270,520,714
+100%
+92028
+196,719
+74 96
+$   
+    
+74.95
+$   
+    
+14,746,133
+100%
+721
+2,768,987
+150 09
+$   
+    
+150.10
+$   
+    
+415,609,604
+100%
+92024
+143,258
+150.12
+$   
+    
+150.10
+$   
+    
+21,505,688
+100%
+- 
+Assumptions and notes
+20%
+Fee
+Item
+Figure or % 
+change
+Assumption
+Supporting evidence
+Figure or % change
+Assumption
+Supporting evidence
+Figure or % change
+Assumption
+Supporting evidence
+Figure or % 
+change
+Assumption
+Supporting 
+evidence
+Questions for Policy
+723, 92025
+23
+91800
+732
+92028
+Service Dates Reported : Jul 
+1, 2021 to Jun 30, 2022
+Same Provider: Yes
+Trigger Item(s): 00721, 00723, 
+92024, 92025
+Combination Item(s): 00721, 
+00723, 92024, 92025
+Items
+Episodes
+Number Services
+Benefits Paid
+TCAs
+00723TC, 00721TC
+2,201,579
+4,404,118
+$592,476,177
+2202059
+93%
+723
+ 
+00721TC
+568,424
+568,648
+$85,362,896
+00723TC
+173,652
+174,216
+$20,723,937
+92025TC, 92024TC
+118,546
+237,163
+$31,908,076
+118581.5
+94%
+92025
+92024TC
+25,081
+25,116
+$3,770,777
+92025TC
+8,623
+8,655
+$1,029,664
+92024TC, 00723TC
+134
+268
+$36,117
+134
+92025TC, 00721TC
+44
+88
+$11,850
+44
+92024TC, 00721TC
+10
+21
+$3,152
+92025TC, 92024TC, 
+00723TC, 00721TC
+8
+32
+$4,305
+16
+6
+3,096,111
+5,418,351
+$735,330,262
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+723
+118.95
+$      
+1,246,442
+1,285,940
+1,485,874
+1,694,305
+1,901,496
+2,123,085
+2,348,046
+2,398,911
+2,224,813
+2,162,478
+2,374,675
+92025
+118.95
+$      
+0
+0
+0
+0
+0
+0
+0
+0
+6,805
+10,492
+126,515
+23
+39.10
+$      
+85,416,612
+86,903,540
+88,613,857
+89,327,258
+90,265,743
+91,108,189
+94,122,874
+95,961,688
+89,952,841
+75,208,570
+71,255,105
+91800
+39.10
+$      
+0
+0
+0
+0
+0
+0
+0
+0
+304,696
+441,682
+1,110,551
+As of proposed scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+723
+1,246,442
+1,285,940
+1,485,874
+1,694,305
+1,901,496
+2,123,085
+2,348,046
+2,398,911
+2,224,813
+2,162,478
+2,374,675
+92025
+0
+0
+0
+0
+0
+0
+0
+0
+6,805
+10,492
+126,515
+23
+85,416,612
+86,903,540
+88,613,857
+89,327,258
+90,265,743
+91,108,189
+94,122,874
+95,961,688
+89,952,841
+75,208,570
+71,255,105
+91800
+0
+0
+0
+0
+0
+0
+0
+0
+304,696
+441,682
+1,110,551
+Number of Services
+Number of Services
+Deletion of TCAs
+Population eligibility
+Benefits Paid %
+ PROTECTED
+FOI 25-0466 LD - Document 3
+Page 1 of 1
+s38
+s47D
+s47E(d)
+s47E(d)
+s47D
+s47D
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health, Disability and Ageing
+ PROTECTED
+Recommendation 2:
+Purpose:
+Estimate the impact on volume and spend of this recommendation
+Legend: 
+Method:
+Estimate the equalized fee for items and volume shifts
+< text >
+Assumptions which can be directly adjusted
+<text>
+Forecast Assumption
+No change expected
+Item(s) affected
+Data 2021/2022
+Current
+Change
+Item number
+Volume
+Estimated 
+Benefit/Service
+Scheduled Fee
+Benefits Paid
+Volume
+Fee
+Spend
+721
+2,768,987
+150.09
+$            
+      
+150.10
+$            
+      
+415,609,604
+150.09
+$            
+    
+-
+$            
+            
+100%
+92024
+143,258
+150.12
+$            
+      
+150.10
+$            
+      
+21,505,688
+150.12
+$            
+    
+-
+$            
+            
+100%
+732
+3,609,238
+74.95
+$            
+        
+74.95
+$            
+        
+270,520,714
+74.95
+$            
+      
+-
+$            
+            
+100%
+92028
+196,719
+74.96
+$            
+        
+74.95
+$            
+        
+14,746,133
+74.96
+$            
+      
+-
+$            
+            
+100%
+Total change in 
+spend
+0
+Assumptions and notes
+Zero Reviews
+Fee Setting
+Fee Increment
+% of plans
+20%
+Volume
+$ Spend
+Actual Spend post deletion of TCAs
+$ Gap
+TCAs Savings
+Net Position
+Total Reviews
+Average Reviews
+Actual Reviews
+% Growth Expected
+Total GP
+Total OMP
+Grand Total
+Growth in Reviews
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+721
+150.09
+$  
+   
+1,501,054
+1,593,865
+1,832,720
+2,057,703
+2,276,979
+2,525,291
+2,765,321
+2,820,448
+2,644,606
+2,540,818
+2,768,987
+92024
+150.12
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+8,660
+12,468
+143,258
+732
+74.95
+$  
+   
+1,551,908
+1,867,570
+2,205,398
+2,570,237
+2,916,150
+3,290,643
+3,696,322
+3,869,409
+3,582,221
+3,415,557
+3,609,238
+92028
+74.96
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+10,349
+15,940
+196,719
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+721
+1,501,054
+1,593,865
+1,832,720
+2,057,703
+2,276,979
+2,525,291
+2,765,321
+2,820,448
+2,644,606
+2,540,818
+2,768,987
+92024
+0
+0
+0
+0
+0
+0
+0
+0
+8,660
+12,468
+143,258
+732
+1,551,908
+1,867,570
+2,205,398
+2,570,237
+2,916,150
+3,290,643
+3,696,322
+3,869,409
+3,582,221
+3,415,557
+3,609,238
+92028
+0
+0
+0
+0
+0
+0
+0
+0
+10,349
+15,940
+196,719
+Number of Services
+Rebalance CDM GPMP and Review Fees
+Number of Services
+ PROTECTED
+FOI 25-0466 LD - Document 4
+Page 1 of 1
+s47D
+s47D
+s47E(d)
+s47E(d)
+s47E(d)
+s47E(d)
+s47E(d)
+s47E(d)
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health, Disability and Ageing
+ PROTECTED
+Recommendation 1:
+Purpose:
+Estimate the impact on volume and spend of this recommendation
+Legend: 
+Method:
+Estimate the equalized fee for items and volume shifts
+< text >
+Assumptions which can be direc ly adjusted
+<text>
+Forecast Assumption
+No change expected
+Item(s) affected
+Data 2021/2022
+Current
+Change
+Item number
+Volume
+Estimated 
+Benefit/Service
+Scheduled Fee
+Benefits Paid
+Volume
+Fee
+Spend
+230
+43,302
+95.13
+$
+ 
+95.15
+$
+ 
+4,119,466
+95.13
+$
+             
+100%
+92056
+1,247
+95.14
+$
+ 
+95.15
+$
+ 
+118,645
+95.14
+$
+             
+100%
+53
+1,242,102
+21.41
+$
+ 
+21.00
+$
+ 
+26,587,589
+21.41
+$
+             
+102%
+91803
+50,219
+21.29
+$
+ 
+21.00
+$
+ 
+1,069,006
+21.29
+$
+             
+101%
+229
+51,022
+120.06
+$
+             
+120.10
+$
+             
+6,125,570
+120.06
+$
+           
+100%
+92055
+1,519
+120.11
+$
+             
+120.10
+$
+             
+182,445
+120.11
+$
+           
+100%
+233
+52,994
+59.94
+$
+ 
+59.95
+$
+ 
+3,176,627
+59.94
+$
+             
+100%
+92059
+2,714
+59.95
+$
+ 
+59.95
+$
+ 
+162,703
+59.95
+$
+             
+100%
+Total change in
+spend
+- 
+Assumptions and notes
+20%
+Fee
+Item
+Figure or % 
+change
+Assumption
+Supporting evidence
+Figure or % change
+Assumption
+Supporting evidence
+Figure or % change
+Assumption
+Supporting evidence
+Figure or % 
+change
+Assumption
+Supporting 
+evidence
+Questions for Policy
+230, 92056
+23
+91800
+233
+92059
+Service Dates Reported : Jul 
+1, 2021 to Jun 30, 2022
+Same Provider: Yes
+Trigger Item(s): 00229, 00230, 
+92055, 92056
+Combination Item(s): 00229, 
+00230, 92055, 92056
+Items
+Episodes
+Number Services
+Benefits Paid
+TCAs
+00230TC, 00229TC
+38,677
+77,372
+$8,326,244
+38686
+89%
+230
+ 
+00229TC
+12,079
+12,088
+$1,451,698
+00230TC
+4,420
+4,440
+$422,346
+92056TC, 92055TC
+1,108
+2,216
+$238,518
+1108
+89%
+92025
+92055TC
+403
+404
+$48,520
+92056TC
+139
+139
+$13,226
+92055TC, 00230TC
+7
+14
+$1,507
+7
+56,833
+96,673
+$10,502,059
+48336.5
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+230
+95.15
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+41,201
+46,329
+51,975
+43,302
+92056
+95.15
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+86
+93
+1,247
+53
+21.00
+$  
+   
+3,445,810
+3,558,235
+3,674,083
+4,134,022
+4,568,494
+4,350,283
+3,874,372
+3,416,304
+2,853,412
+1,871,415
+1,242,102
+91803
+21.00
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+16,073
+30,273
+50,219
+As of proposed scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+230
+0
+0
+0
+0
+0
+0
+0
+41,201
+46,329
+51,975
+43,302
+92056
+0
+0
+0
+0
+0
+0
+0
+0
+86
+93
+1,247
+53
+3,445,810
+3,558,235
+3,674,083
+4,134,022
+4,568,494
+4,350,283
+3,874,372
+3,416,304
+2,853,412
+1,871,415
+1,242,102
+91803
+0
+0
+0
+0
+0
+0
+0
+0
+16,073
+30,273
+50,219
+Number of Services
+Number of Services
+Deletion of OMP TCAs
+Population eligibility
+Benefits Paid %
+ PROTECTED
+FOI 25-0466 LD - Document 5
+Page 1 of 1
+s47D
+s47D
+s47E(d)
+s47E(d)
+s47D
+s47D
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health, Disability and Ageing
+ PROTECTED
+Recommendation 2:
+Purpose:
+Estimate the impact on volume and spend of this recommendation
+Legend: 
+Method:
+Estimate the equalized fee for items and volume shifts
+< text >
+Assumptions which can be direc ly adjusted
+<text>
+Forecast Assumption
+No change expected
+Item(s) affected
+Data 2021/2022
+Current
+Change
+Item number
+Volume
+Estimated 
+Benefit/Service
+Scheduled Fee
+Benefits Paid
+Volume
+Fee
+Spend
+229
+51,022
+120.06
+$
+             
+120.10
+$
+             
+6,125,570
+120.06
+$
+           
+-
+$
+   
+100%
+92055
+1,519
+120.11
+$
+             
+120.10
+$
+             
+182,445
+120.11
+$
+           
+-
+$
+   
+100%
+233
+52,994
+59.94
+$
+ 
+59.95
+$
+ 
+3,176,627
+59.94
+$
+             
+-
+$
+   
+100%
+92059
+2,714
+59.95
+$
+ 
+59.95
+$
+ 
+162,703
+59.95
+$
+             
+-
+$
+   
+100%
+Total change in 
+spend
+0
+Assumptions and notes
+Zero Reviews
+Fee Setting
+Fee Increment
+% of plans
+Volume
+$ Spend
+Actual Spend post deletion of TCAs
+$ Gap
+TCAs Savings
+Net Position
+Total Reviews
+Average Reviews
+Actual Reviews
+% Growth Expected
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+229
+120.06
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+48,874
+55,856
+60,989
+51,022
+92055
+120.11
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+116
+130
+1,519
+233
+59.94
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+59,328
+62,162
+68,142
+52,994
+92059
+59.95
+$  
+   
+0
+0
+0
+0
+0
+0
+0
+0
+126
+147
+2,714
+As of current scenario
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Number of Services
+2011/2012
+2012/2013
+2013/2014
+2014/2015
+2015/2016
+2016/2017
+2017/2018
+2018/2019
+2019/2020
+2020/2021
+2021/2022
+2022/23
+2023/24
+2024/25
+2025/26
+2026/27
+2027/28
+229
+$ 
+0
+0
+0
+0
+0
+0
+0
+48,874
+55,856
+60,989
+51,022
+92055
+$ 
+0
+0
+0
+0
+0
+0
+0
+0
+116
+130
+1,519
+233
+$ 
+0
+0
+0
+0
+0
+0
+0
+59,328
+62,162
+68,142
+52,994
+92059
+$ 
+0
+0
+0
+0
+0
+0
+0
+0
+126
+147
+2,714
+Number of Services
+Rebalance CDM GPMP and Review Fees
+Number of Services
+ PROTECTED
+FOI 25-0466 LD - Document 6
+Page 1 of 1
+s47D
+s47D
+s47E(d)
+s47E(d)
+s47E(d)
+s47E(d)
+s47E(d)
+This document has been released under 
+the Freedom of Information Act 1982  
+by the Department of Health, Disability and Ageing
+

@@ -1,0 +1,333 @@
+FOI 25-0288 LD 
+3. As at June 30 for each of the past 10 calendar years, please state the number of a.) HCP and b.) CHSP recipients aged more than 100.
+Please break down for state and territory.
+Table 1. Number of HCP care recipients aged 100+ as at 30 June each year since 2017 by state and territory (note - data earlier than 30 June 
+2017 is not available) 
+As At Date 
+National 
+NSW 
+VIC 
+QLD 
+WA 
+SA 
+TAS 
+ACT 
+NT 
+Unknown 
+30-Jun-2017
+232 
+105 
+34 
+42 
+30 
+<15 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2018
+369 
+156 
+56 
+65 
+51 
+25 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2019
+426 
+158 
+73 
+88 
+52 
+39 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2020
+529 
+207 
+98 
+101 
+57 
+51 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2021
+686 
+258 
+152 
+131 
+61 
+64 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2022
+838 
+295 
+192 
+156 
+93 
+75 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2023
+992 
+366 
+219 
+182 
+111 
+88 
+<15 
+<15 
+<15 
+<15 
+30-Jun-2024
+1,094 
+416 
+247 
+202 
+113 
+88 
+<15 
+15 
+<15 
+<15 
+Unknown: A small number of people have address details not matched to state/territory as the individual has an incomplete or no address recorded in the system 
+Table 2. Number of CHSP clients aged 100+ as at 30 June each year since 2017 by state and territory (note - data earlier than 30 June 2017 is 
+not available) 
+As At Date 
+National 
+NSW 
+VIC 
+QLD 
+WA 
+SA 
+TAS 
+ACT 
+NT 
+Unknown 
+30-Jun-2017
+1,794 
+643 
+501 
+381 
+33 
+153 
+54 
+25 
+<15 
+<15 
+30-Jun-2018
+1,851 
+645 
+498 
+420 
+35 
+175 
+50 
+25 
+<15 
+<15 
+30-Jun-2019
+1,829 
+632 
+442 
+350 
+152 
+179 
+49 
+23 
+<15 
+<15 
+30-Jun-2020
+2,040 
+652 
+554 
+436 
+131 
+192 
+42 
+28 
+<15 
+<15 
+30-Jun-2021
+2,006 
+641 
+538 
+413 
+147 
+198 
+44 
+23 
+<15 
+<15 
+30-Jun-2022
+2,136 
+697 
+551 
+433 
+164 
+227 
+42 
+20 
+<15 
+<15 
+30-Jun-2023
+2,171 
+707 
+561 
+465 
+140 
+234 
+46 
+16 
+<15 
+<15 
+30-Jun-2024
+2,136 
+734 
+536 
+433 
+160 
+195 
+53 
+22 
+<15 
+<15 
+Unknown: A small number of people have address details not matched to state/territory as the individual has an incomplete or no address recorded in the system 
+FOI 25- 0288 LD - Document 1
+Page 1 of 4
+This Document Has Been Released Under The 
+Freedom Of Information Act 1982 
+By The Department Of Health And Aged Care
+4. As at June 30 for each of the past 10 calendar years, please state the number of HCP recipients aged more than 100 with a breakdown 
+according to each HCP Level 1, 2, 3 and 4. 
+ 
+Table 3. Number of HCP care recipients aged 100+ as at 30 June each year since 2017 by package level (note - data earlier than 30 June 2017 
+is not available) 
+As At Date 
+Level 1 
+Level 2 
+Level 3 
+Level 4 
+All Levels 
+30-Jun-2017 
+<15 
+124 
+35 
+101 
+232 
+30-Jun-2018 
+<15 
+185 
+82 
+177 
+369 
+30-Jun-2019 
+<15 
+169 
+131 
+226 
+426 
+30-Jun-2020 
+29 
+172 
+165 
+283 
+529 
+30-Jun-2021 
+46 
+212 
+184 
+355 
+686 
+30-Jun-2022 
+27 
+212 
+245 
+438 
+838 
+30-Jun-2023 
+<15 
+223 
+335 
+516 
+992 
+30-Jun-2024 
+<15 
+266 
+344 
+547 
+1,094 
+ 
+ 
+ 
+FOI 25- 0288 LD - Document 1
+Page 2 of 4
+This Document Has Been Released Under The 
+Freedom Of Information Act 1982 
+By The Department Of Health And Aged Care
+5. As at June 30 for each of the past 10 calendar years, please state the highest age of the a.) HCP recipients and their package level, and b.) 
+the highest age of CHSP recipients and the state or territory of that person. 
+ 
+Table 4. HCP Care Recipients of highest age in care as at the end of FY and their package level 
+As At Date 
+Highest Age of HCP Care Recipient(s) 
+Package Level(s)* 
+30-Jun-2017 
+107 Level 3, Level 4 
+30-Jun-2018 
+110 Level 2 
+30-Jun-2019 
+109 Level 4 
+30-Jun-2020 
+110 Level 4 
+30-Jun-2021 
+109 Level 1, Level 2 
+30-Jun-2022 
+110 Level 1 
+30-Jun-2023 
+110 Level 4 
+30-Jun-2024 
+109 Level 3, Level 4 
+* Multiple package level indicate HCP care recipients in different package levels with the same highest age 
+Table 5. CHSP Recipients of highest age as at the end of FY and their state or territory 
+As At Date 
+Highest Age of CHSP Recipient 
+State or Territory** 
+30-Jun-2017 
+110 VIC, QLD, TAS 
+30-Jun-2018 
+110 NSW, VIC 
+30-Jun-2019 
+110 NSW, VIC 
+30-Jun-2020 
+110 NSW, VIC 
+30-Jun-2021 
+110 VIC, QLD, TAS 
+30-Jun-2022 
+110 NSW, VIC, QLD, SA 
+30-Jun-2023 
+110 NSW, VIC, QLD 
+30-Jun-2024 
+110 NSW, QLD 
+** Multiple state/territory indicate CHSP recipients in different locations with the same highest age 
+FOI 25- 0288 LD - Document 1
+Page 3 of 4
+This Document Has Been Released Under The 
+Freedom Of Information Act 1982 
+By The Department Of Health And Aged Care
+This Document Has Been Released Under The 
+Freedom Of Information Act 1982 
+By The Department Of Health And Aged Care
+
