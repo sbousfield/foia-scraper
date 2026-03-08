@@ -68,6 +68,39 @@ class PDFExtractor:
             curs = conn.cursor()
         return conn, curs
 
+    def fully_processed(self, conn, curs):
+        curs.execute("""WITH page_counts AS (
+                                SELECT 
+                                    FILENAME
+                                    , COUNT(DISTINCT PYTHON_PAGE_NUMBER) as processed_pages
+                                FROM PAGES
+                                GROUP BY FILENAME
+                            )
+                            SELECT
+                                d.FILENAME
+                            FROM DOCUMENTS d
+                            LEFT JOIN page_counts pc on d.FILENAME = pc.FILENAME
+                            WHERE d.PAGE_COUNT = pc.processed_pages;
+                                    """)
+        fully_processed = {row[0] for row in curs.fetchall()}
+        curs.execute("""WITH page_counts AS (
+                                SELECT 
+                                      FILENAME
+                                    , COUNT(DISTINCT PYTHON_PAGE_NUMBER) as processed_pages
+                                FROM PAGES
+                                GROUP BY FILENAME
+                            )
+                            SELECT 
+                                COUNT(d.FILENAME) as total,
+                                COUNT(pc.FILENAME) as fully_processed
+                            FROM DOCUMENTS d
+                            LEFT JOIN page_counts pc 
+                                ON d.FILENAME = pc.FILENAME 
+                                AND d.PAGE_COUNT = pc.processed_pages """)
+        total, processed = curs.fetchone()
+        return fully_processed, total, processed
+
+
     def remove_watermarks(self, s) :
         foi_watermark_pattern = r"FOI\d+-\d+(?:\w+)?(?:-)?(?:DOCUMENT\d*)?"
         pagenumber_watermark_pattern = r"PAGE\d+OF\d+"
@@ -115,10 +148,13 @@ class PDFExtractor:
         processed_pages = {row[0] for row in curs.fetchall()}
         return processed_pages, filename, foi_reference_number, page_count, document_word_count
 
-    def pdf_native_text_extraction(self, conn, curs, download_dir=DOWNLOAD_DIR):
-        for pdf in os.listdir(download_dir):
+    def pdf_native_text_extraction(self, conn, curs, fully_processed, download_dir=DOWNLOAD_DIR):
+        for pdf in sorted(os.listdir(download_dir), key=lambda x: os.path.getsize(download_dir/x)):
             if not pdf.lower().endswith(".pdf"):
                 continue
+            if pdf in fully_processed:
+                continue
+            print(pdf)
             document = pymupdf.open(download_dir/pdf)
             processing_time_start = time.time()
             date_processed = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(processing_time_start))
@@ -178,25 +214,29 @@ class PDFExtractor:
                                 AND FOI_REFERENCE_NUMBER = ?
                                 AND PAGE_COUNT = ?""", (document_word_count, filename, foi_reference_number, page_count))
                 conn.commit()
-                document.close()
             except Exception as e:
                 print(f"Error processing {pdf}: {e}")
                 with open(Path(PROCESSED_DIR/'errors.txt'), 'a') as f:
                     print(f"{date_processed} - Error Processing ({pdf}): {e}", file=f) 
                 continue
+            finally:
+                document.close()
             
 
 
 
-    def pdf_ocr_text_extraction(self, conn, curs, download_dir=DOWNLOAD_DIR):
+    def pdf_ocr_text_extraction(self, conn, curs, fully_processed, download_dir=DOWNLOAD_DIR):
         reader = easyocr.Reader(['en'], gpu=True)
         # DPI chosen from analysis of a small corpus of documents in my test file/notebook
         # This is an obvious and easy change to make to see if other values return a better
         # file across multiple documents 
         DPI = 400
-        for pdf in os.listdir(download_dir):
+        for pdf in sorted(os.listdir(download_dir), key=lambda x: os.path.getsize(download_dir/x)):
             if not pdf.lower().endswith(".pdf"):
                 continue
+            if pdf in fully_processed:
+                continue
+            print(pdf)
             document = pymupdf.open(download_dir/pdf)
             cat = document.pdf_catalog()
             processing_time_start = time.time()
@@ -216,7 +256,6 @@ class PDFExtractor:
                 watermark = json.dumps({'xrefs': watermark_xrefs, 'contents': {str(k): v for k, v in document.get_ocgs().items()}})
                 tmp_path = '/tmp/tmp'+pdf
                 document.save(tmp_path)
-                document.close()
                 #tmp_pdf = pdf with watermarks removed
                 tmp_pdf = pymupdf.open(tmp_path)
                 for i, page in enumerate(tmp_pdf):
@@ -243,10 +282,14 @@ class PDFExtractor:
                                 AND FOI_REFERENCE_NUMBER = ?
                                 AND PAGE_COUNT = ?""", (document_word_count, filename, foi_reference_number, page_count))
                 conn.commit()
-                tmp_pdf.close()
-                os.remove(tmp_path)
             except Exception as e:
                 print(f"Error processing {pdf}: {e}")
                 with open(Path(PROCESSED_DIR/'errors.txt'), 'a') as f:
                     print(f"{date_processed} - Error Processing ({pdf}): {e}", file=f) 
                 continue
+            finally:
+                document.close()
+                if 'tmp_pdf' in locals():
+                    tmp_pdf.close()
+                if os.path.exists(tmp_path):
+                    os.remove(tmp_path)

@@ -56,6 +56,8 @@ class FOIScraper:
                                                ,"FOI Date (Human)"
                                                ,"FOI Title"
                                                ,"FOI URL"
+                                               ,"PDF INDEX"
+                                               ,"PDF COUNT" 
                                                ,"PDF URL"
                                                ,"Processed"])
             processed_links = set()
@@ -78,9 +80,11 @@ class FOIScraper:
                     "FOI Date (Machine)": foi_date_machine,
                     "FOI Date (Human)": foi_date_human_readable,
                     "FOI Title": foi_title,
-                    "FOI URL": foi_link, 
+                    "FOI URL": foi_link,
+                    "PDF INDEX": 0,
+                    "PDF COUNT": 0, 
                     "PDF URL": "No URL",
-                    "Processed": "Unprocessed",
+                    "Processed": "Unprocessed"
                     }
                 metadata_csv_dict_list.append(metadata_csv_dict)
             else:
@@ -103,37 +107,100 @@ class FOIScraper:
     
     def find_pdf_url(self):
         df = pd.read_csv(METADATA_FILE)
-        unprocessed_rows = (df["Processed"]== "Unprocessed").sum()
+        processed_df = df.loc[df["Processed"].isin(["Downloaded", "No PDF"])]
+        unprocessed_df = df.loc[~df["Processed"].isin(["Downloaded", "No PDF"])]
+        unprocessed_rows = len(unprocessed_df)
+        #unprocessed_rows = (df["Processed"]== "Unprocessed").sum()
         print(f"{unprocessed_rows} number of new links found")
         processed_rows = 0
-        for i, row in df.iterrows():
-            if row["Processed"] == "Unprocessed":
-                processed_rows += 1
-                link = row["FOI URL"]
-                try:
-                    response = self.session.get(link)
-                    soup = BeautifulSoup(response.content, 'html.parser')
-                    pdf_link_tag = soup.find('a', 'health-file__link')
-                    if pdf_link_tag is None:
-                        df.at[i, "Processed"] = "No PDF"
-                    else:
-                        pdf_href = pdf_link_tag.get('href')
+        newly_processed_list = []
+        for i, row in unprocessed_df.iterrows():
+            (foi_number, foi_date_machine, foi_date_human, 
+                foi_title, foi_url, pdf_index, pdf_count,
+                pdf_url, processed) = row
+            processed_rows += 1
+            link = row["FOI URL"]
+            try:
+                response = self.session.get(link)
+                soup = BeautifulSoup(response.content, 'html.parser')
+                pdf_link_tags = soup.find_all('a', 'health-file__link')
+                if not pdf_link_tags:
+                    processed = "No PDF"
+                    metadata_csv_dict = {
+                            "FOI Number": foi_number,
+                            "FOI Date (Machine)": foi_date_machine,
+                            "FOI Date (Human)": foi_date_human,
+                            "FOI Title": foi_title,
+                            "FOI URL": foi_url,
+                            "PDF INDEX": 0,
+                            "PDF COUNT": 0,  
+                            "PDF URL": pdf_url,
+                            "Processed": processed,
+                            }
+                    newly_processed_list.append(metadata_csv_dict)
+                else:
+                    pdf_count = len(pdf_link_tags)
+                    for n, pdf_tag in enumerate(pdf_link_tags):
+                        pdf_href = pdf_tag.get('href')
                         pdf_url = urljoin(self.base_url, pdf_href)
                         self.download_pdf(pdf_url)
-                        df.at[i, "PDF URL"] = pdf_url
-                        df.at[i, "Processed"] = "Downloaded"
-                except requests.exceptions.RequestException as e:
-                    df.at[i, "Processed"] = f"Network Error: {e}"
-                except Exception as e:
-                    df.at[i, "Processed"] = f"Exception: {e}"
-                df.to_csv(METADATA_FILE, index=False)
-                print(f"{processed_rows} out of {unprocessed_rows} processed")
-                time.sleep(DELAY_BETWEEN_REQUESTS)
-        
+                        pdf_index = n+1
+                        processed = "Downloaded"
+                        metadata_csv_dict = {
+                            "FOI Number": foi_number,
+                            "FOI Date (Machine)": foi_date_machine,
+                            "FOI Date (Human)": foi_date_human,
+                            "FOI Title": foi_title,
+                            "FOI URL": foi_url,
+                            "PDF INDEX": pdf_index,
+                            "PDF COUNT": pdf_count,  
+                            "PDF URL": pdf_url,
+                            "Processed": processed,
+                            }
+                        newly_processed_list.append(metadata_csv_dict)
+            except requests.exceptions.RequestException as e:
+                processed = f"Network Error {e}"
+                pdf_url = ""
+                metadata_csv_dict = {
+                            "FOI Number": foi_number,
+                            "FOI Date (Machine)": foi_date_machine,
+                            "FOI Date (Human)": foi_date_human,
+                            "FOI Title": foi_title,
+                            "FOI URL": foi_url,
+                            "PDF INDEX": 0,
+                            "PDF COUNT": 0,  
+                            "PDF URL": pdf_url,
+                            "Processed": processed,
+                }
+                newly_processed_list.append(metadata_csv_dict)
+            except Exception as e:
+                processed = f"Exception {e}"
+                pdf_url = ""
+                metadata_csv_dict = {
+                            "FOI Number": foi_number,
+                            "FOI Date (Machine)": foi_date_machine,
+                            "FOI Date (Human)": foi_date_human,
+                            "FOI Title": foi_title,
+                            "FOI URL": foi_url,
+                            "PDF INDEX": 0,
+                            "PDF COUNT": 0,  
+                            "PDF URL": pdf_url,
+                            "Processed": processed,
+                }
+                newly_processed_list.append(metadata_csv_dict)
+            print(f"{processed_rows} out of {unprocessed_rows} processed")
+            time.sleep(DELAY_BETWEEN_REQUESTS)   
+        newly_processed_df = pd.DataFrame(newly_processed_list)
+        df = pd.concat([processed_df, newly_processed_df], ignore_index=True)
+        df.to_csv(METADATA_FILE, index=False)
 
     def download_pdf(self, pdf_url):
-        response = self.session.get(pdf_url)
         pdf_name = pdf_url.split('/')[-1]
+        path = Path(DOWNLOAD_DIR, pdf_name)
+        if path.exists():
+            print(f"PDF already exists. Skipping {pdf_name}")
+            return
+        response = self.session.get(pdf_url)
         with open(f"{DOWNLOAD_DIR}/{pdf_name}", 'wb') as f:
             f.write(response.content)
     
@@ -151,4 +218,3 @@ class FOIScraper:
             self.save_metadata_to_csv(metadata)
             if i < max_page_number:
                 time.sleep(DELAY_BETWEEN_REQUESTS)
-            
