@@ -14,6 +14,8 @@ from src.config import PROCESSED_DIR, DOWNLOAD_DIR
 class PDFExtractor:
 
     def sqlite_database_connect(self, db):
+        if not os.path.exists(PROCESSED_DIR):
+            Path(PROCESSED_DIR).mkdir(parents=True, exist_ok=True)
         db = str(Path(PROCESSED_DIR/db))
         if not os.path.exists(db):
             conn = sqlite3.connect(db)
@@ -149,12 +151,13 @@ class PDFExtractor:
         return processed_pages, filename, foi_reference_number, page_count, document_word_count
 
     def pdf_native_text_extraction(self, conn, curs, fully_processed, download_dir=DOWNLOAD_DIR):
+        pdf_count = 1
         for pdf in sorted(os.listdir(download_dir), key=lambda x: os.path.getsize(download_dir/x)):
             if not pdf.lower().endswith(".pdf"):
                 continue
             if pdf in fully_processed:
                 continue
-            print(pdf)
+            print(f"{pdf_count} - {pdf}")
             document = pymupdf.open(download_dir/pdf)
             processing_time_start = time.time()
             date_processed = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(processing_time_start))
@@ -221,12 +224,14 @@ class PDFExtractor:
                 continue
             finally:
                 document.close()
+                pdf_count += 1
             
 
 
 
     def pdf_ocr_text_extraction(self, conn, curs, fully_processed, download_dir=DOWNLOAD_DIR):
         reader = easyocr.Reader(['en'], gpu=True)
+        pdf_count = 1
         # DPI chosen from analysis of a small corpus of documents in my test file/notebook
         # This is an obvious and easy change to make to see if other values return a better
         # file across multiple documents 
@@ -236,7 +241,7 @@ class PDFExtractor:
                 continue
             if pdf in fully_processed:
                 continue
-            print(pdf)
+            print(f"{pdf_count} - {pdf}")
             document = pymupdf.open(download_dir/pdf)
             cat = document.pdf_catalog()
             processing_time_start = time.time()
@@ -293,3 +298,4 @@ class PDFExtractor:
                     tmp_pdf.close()
                 if os.path.exists(tmp_path):
                     os.remove(tmp_path)
+                pdf_count += 1
