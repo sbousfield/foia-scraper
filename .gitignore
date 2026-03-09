@@ -12,7 +12,7 @@ todolist.txt
 notebooks/test_txt/
 notebooks/errors.txt
 notebooks/test_extract_test.db
-
+processed_documents.db
 # IDE
 .vscode/
 .idea/
