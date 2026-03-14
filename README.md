@@ -1,4 +1,4 @@
-# FOIA Redaction Auditor
+# FOIA Document Analysis Pipeline
 
 An end-to-end data science pipeline to scrape, extract, and analyse Australian government Freedom of Information documents — auditing redaction quality using NLP and PII detection.
 
